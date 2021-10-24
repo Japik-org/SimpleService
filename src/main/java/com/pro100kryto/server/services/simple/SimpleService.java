@@ -1,4 +1,4 @@
-package com.pro100kryto.server.services;
+package com.pro100kryto.server.services.simple;
 
 import com.pro100kryto.server.logger.ILogger;
 import com.pro100kryto.server.service.AService;

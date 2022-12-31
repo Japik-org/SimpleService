@@ -23,7 +23,7 @@
     </dependencies>
 
     <build>
-        <finalName>simple-service-v${project.version}</finalName>
+        <finalName>simple-service-${project.version}</finalName>
 
         <resources>
             <resource>

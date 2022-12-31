@@ -7,7 +7,7 @@
 
     <groupId>com.japik.services</groupId>
     <artifactId>SimpleService</artifactId>
-    <version>0.2</version>
+    <version>0.3</version>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -18,7 +18,7 @@
         <dependency>
             <groupId>com.japik</groupId>
             <artifactId>Japik</artifactId>
-            <version>[0.6.0, 0.7.0)</version>
+            <version>[0.7.0, 0.8.0)</version>
         </dependency>
     </dependencies>
 

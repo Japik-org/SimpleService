@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.japik.services</groupId>
-    <artifactId>SimpleService</artifactId>
+    <artifactId>simple-service</artifactId>
     <version>0.3</version>
 
     <properties>
@@ -17,7 +17,7 @@
     <dependencies>
         <dependency>
             <groupId>com.japik</groupId>
-            <artifactId>Japik</artifactId>
+            <artifactId>japik</artifactId>
             <version>[0.7.0, 0.8.0)</version>
         </dependency>
     </dependencies>

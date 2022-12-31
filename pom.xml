@@ -19,6 +19,7 @@
             <groupId>com.japik</groupId>
             <artifactId>japik</artifactId>
             <version>[0.7.0, 0.8.0)</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
@@ -121,10 +122,7 @@
                         <configuration>
                             <outputDirectory>${project.build.directory}/out/libs</outputDirectory>
                             <overWriteSnapshots>true</overWriteSnapshots>
-                            <excludeArtifactIds>Japik</excludeArtifactIds>
-                            <excludeGroupIds>com.japik.extensions</excludeGroupIds>
-                            <excludeGroupIds>com.japik.services</excludeGroupIds>
-                            <excludeGroupIds>com.japik.modules</excludeGroupIds>
+                            <excludeScope>provided</excludeScope>
                         </configuration>
                     </execution>
                 </executions>

@@ -6,8 +6,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.japik.services</groupId>
-    <artifactId>SimpleService</artifactId>
-    <version>0.2</version>
+    <artifactId>simple-service</artifactId>
+    <version>0.3</version>
+
+    <name>Simple Service</name>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -17,13 +19,14 @@
     <dependencies>
         <dependency>
             <groupId>com.japik</groupId>
-            <artifactId>Japik</artifactId>
-            <version>[0.6.0, 0.7.0)</version>
+            <artifactId>japik</artifactId>
+            <version>[0.7.0, 0.8.0)</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
     <build>
-        <finalName>simple-service-v${project.version}</finalName>
+        <finalName>simple-service-${project.version}</finalName>
 
         <resources>
             <resource>
@@ -121,10 +124,7 @@
                         <configuration>
                             <outputDirectory>${project.build.directory}/out/libs</outputDirectory>
                             <overWriteSnapshots>true</overWriteSnapshots>
-                            <excludeArtifactIds>Japik</excludeArtifactIds>
-                            <excludeGroupIds>com.japik.extensions</excludeGroupIds>
-                            <excludeGroupIds>com.japik.services</excludeGroupIds>
-                            <excludeGroupIds>com.japik.modules</excludeGroupIds>
+                            <excludeScope>provided</excludeScope>
                         </configuration>
                     </execution>
                 </executions>
